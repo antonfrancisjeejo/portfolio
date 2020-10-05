@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+
+.header {
+  display: flex;
+  align-items: center;
+  color: white;
+  z-index: 2000;
+  top: 0;
+  position: sticky;
+  background-color: black;
+}
+
+.header__left {
+  flex: 0.4;
+}
+
+.header__left > h1 {
+  text-align: center;
+  font-family: "Alata", sans-serif;
+  letter-spacing: 1px;
+  padding: 20px 0;
+}
+
+.header__left > h1 > span {
+  color: #f64c08;
+}
+
+.header__right {
+  display: flex;
+  flex: 0.6;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header__right > a > h4 {
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 200ms ease-out;
+  padding: 20px 0;
+  letter-spacing: 1px;
+  font-family: "Crimson Text", serif;
+}
+
+.header__right > a > h4:hover {
+  transform: scale(1.09);
+  background-color: #f64c08;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  font-family: "Crimson Text", serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.header__right--active {
+  border-bottom: 3px solid #f64c08;
+  color: white;
+  padding: 2px 20px !important;
+  border-radius: 2px;
+}
+
+.header__right--semiactive {
+  background-color: #f64c08;
+  color: white;
+  padding: 5px 20px !important;
+  border-radius: 2px;
+  cursor: pointer;
+}
