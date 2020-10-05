@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+.modal__title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: black;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.modal__button {
+  background: #ae85c4;
+  background: -webkit-radial-gradient(center, #ae85c4, #7865f5);
+  background: -moz-radial-gradient(center, #ae85c4, #7865f5);
+  background: radial-gradient(ellipse at center, #ae85c4, #7865f5);
+  color: white !important;
+  text-transform: inherit !important;
+  font-size: 20px !important;
+  padding: 5px 30px !important;
+}
+
+.modal__error {
+  color: red;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.MuiInput-underline:after {
+  border-bottom: 2px solid white !important;
+}
+
+.MuiFormLabel-root {
+  color: black;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: white !important;
+}
+
+.MuiInputBase-root {
+  width: 400px !important;
+}
